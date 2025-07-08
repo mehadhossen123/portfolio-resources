@@ -2,7 +2,11 @@
     background-image: url('../developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-left: 23px;
+    margin-top: 38px;
+    
 }
+
 
 nav{
     display: flex;
@@ -71,7 +75,7 @@ border: none;
     font-size: 18px;
 }
 .banner-img{
-    width: 500px;
+    width: 580px;
     height: 600px;
 }
 .banner{
@@ -80,6 +84,51 @@ border: none;
     margin: 0px 30px 0px 230px ;
 
 }
-.banner-content{
-  
+.about-title{
+font-size: 35px;
+color: #181818;
+font-weight: bold;
+}
+.about-discussion{
+    font-size: 18px;
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-discussions{
+    font-weight: 600;
+}
+.skills{
+padding-top: 130px;
+}
+.text-center{
+    text-align: center;
+}
+.skils-container{
+    display: flex;
+    gap:24px
+                                  
+
+}
+.skil{ 
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 46px;
+    
 }
