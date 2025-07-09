@@ -177,10 +177,30 @@ footer{
 footer input[type="text"],footer input[type="email"],footer textarea{
     height: 64px;
     border-radius: 5px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.151);
     display: block;
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+input::placeholder{
+    font-size:20px;
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+.address ul {
+   list-style-type: none;
+}
+.address{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+footer{
+    position: relative;
+}
+.address h2{
+    padding-left: 40px;
 }
